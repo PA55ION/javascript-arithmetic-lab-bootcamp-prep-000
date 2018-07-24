@@ -27,15 +27,17 @@ function dec(a) {
 }
 
 function makeInt(n) {
-  // var parsed = parseInt(n, 10)
-  if ('n', 10) {
-    return n;
-  } else if (n === '0x2328') {
-     return 0;
-  } else if ('sldkjflksjf' === true) {
-    return NaN;
-  }
-};
+  var parsed = parseInt(n, 10)
+  return parsed;
+}
+//   if (parseInt) {
+//     return;
+//   } else if (n === '0x2328') {
+//      return 0;
+//   } else if ('sldkjflksjf' === true) {
+//     return NaN;
+//   }
+// };
 
 function preserveDecimal(n) {
   if(n === '2.222') {
